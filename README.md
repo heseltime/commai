@@ -13,6 +13,8 @@ category_colors = {
 
 ![Screenshot of encoded result](./output_screenshot.png)
 
+:exclamation: _Note: the program is not perfect. Here is an encoding for **Risk** although **Replace** as in "replacing humans with AI" would more closely fit._
+
 ## Overview
 
 This script processes all PDFs in a specified input folder to classify and highlight sentences based on their semantic similarity to predefined categories (we chose Opportunity, Risk, Replace and Complement for our group project). It uses pre-trained word embeddings from spaCy to represent sentences and category keywords as vectors. Each sentence is compared to the category vectors using cosine similarity to identify its most relevant category. Sentences with high similarity scores are highlighted in the PDF with category-specific colors. The processed PDFs are saved in an output folder with the same filenames, enabling batch semantic analysis and visualization of text data.
