@@ -1,5 +1,16 @@
 # Testing Automated Encoding for CommAI :bookmark_tabs: :scissors:
 
+**To view results, go to the output folder and open processed pdfs.** This document details the program used to produce these encoding-visualizations.
+
+```
+category_colors = {
+    "Opportunity": (0, 255, 0),  # Green
+    "Risk": (255, 0, 0),         # Red
+    "Replace": (255, 192, 203),  # Pink
+    "Complement": (255, 255, 0), # Yellow
+}
+```
+
 ![Screenshot of encoded result](./output_screenshot.png)
 
 ## Overview
