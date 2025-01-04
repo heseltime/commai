@@ -16,7 +16,7 @@ Our test set of seven documents (the outputs) look promising and will be compare
 
 ## Setup
 
-Create a virtual environment (best with venv) and add the PyMuPDF and spacy packages with `pip install`. Then, to have the embedding model loaded:
+Create a virtual environment (best with venv) and add the `PyMuPDF` and `spacy` packages with `pip install`. Then, to have the embedding model loaded:
 
 ```
 python -m spacy download en_core_web_md
